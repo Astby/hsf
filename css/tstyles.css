@@ -1,0 +1,271 @@
+body {
+  text-align: center;
+  font-family: 'Allura';
+  font-size: 40px;
+  color: #40514E;
+}
+
+.cloudt {
+  position: absolute;
+  left: 23%;
+}
+
+.cloud {
+  position: absolute;
+  top: 10%;
+  right: 21%;
+}
+
+hr {
+  border: dotted #0cc99d 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 76;
+  padding: 0 5PX 0;
+  box-shadow: 1px 1px 20px 0px #000000;
+  -webkit-box-shadow: 1px 1px 20px 0px #000000;
+  -moz-box-shadow: 1px 1px 20px 0px #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #337FED 3px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+.copyr {
+  color: #4a8a8b;
+  font-size: 0.75rem;
+  margin: 25px auto 3px auto;
+}
+
+.btn:hover {
+  border: solid #337FED 1px;
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.footer-link {
+  padding: 0 30px 0;
+  text-decoration: none;
+  color: ivory;
+  font-size: 1.75rem;
+
+}
+.footer-link:hover {
+  color: green;
+}/*This class link has presidence over a {} link lower down*/
+
+.top-container {
+  background-color: #00bfff;
+  position: relative;
+  padding-top: 100px;
+  /*line-height: 2*/
+}
+
+.middle-container {
+  /*background-color: #e0ffff;*/
+  line-height: 2;/*You forgotten to put semicolon after 2 and it stopped<br>
+   executing code after this line all the way downwards!!!*/
+  padding-bottom: 20px;
+}
+
+.lighttunnel {
+  width: 40%;
+  float: left;
+  margin-right: 30px;
+}
+
+/*.profile {
+  width: 50%;
+  margin: 100px auto;
+  margine-color: #e0ffff;
+}*/
+.bottom-container {
+  background-color: #8fbc8f;
+  font-family: sans-serif;
+  padding: 50px 0 10px;/*50px up top,0 left and right, 20px at the bottom*/
+}
+
+
+.btn {
+  font-family: sans-serif;
+}
+
+p {
+  color: #ad6b07;
+  font-weight: bolder;
+  font-size: 30px;
+  margin-bottom: 35px;
+}
+.alegor {
+  font-size: 1.5rem;
+}
+/*.contact-me h3 {
+  text-align: center;
+  font-size:
+}*/
+
+
+
+.maidstone {
+  width: 15%;
+  margin-top: 50px;
+}
+
+.skill-row {
+  text-align: left;
+}
+
+/*.skill-row p {
+  text-align: left;
+  margin-left: 20%;
+}
+.skill-row ul {
+  margin-left: 30%;
+}*/
+li {
+  text-align: left;
+  font-size: 26px;
+}
+
+a {
+  color: #11999e;;
+}
+
+/*a:hover {
+  background-color:#11999e;
+}*/
+
+h5 {
+  margin-top: 5px;
+}
+
+h3 {
+  font-size: 60px;
+  color: #11999E;
+  padding-bottom: 10px;
+}
+
+h2 {
+  font-size: 75px;
+  margin-top: 0;
+  color: #66BFBF;
+}
+
+h1 {
+  color: green;
+  margin: 50px auto 0 auto;
+}
+
+.pushup {
+  float: right;
+  margin-right: 50px;
+  margin-top: 120px;
+}
+
+.catap {
+  float: right;
+  margin-right: 20px;
+  margin-top: 120px;
+}
+
+.devsky {
+  clear: right;
+}
+
+.devsky2 {
+  clear: right;
+}
+
+/*.npullup {
+  float: left;
+}
+.pushup {
+  float: left;
+}
+.dips {
+  float: left;
+}*/
+/*body {
+  margin: 0;
+}
+h1 {
+  margin: 0 auto 0 auto;
+  font-style: italic;
+  font-size: 48px;
+  color: green;
+  position: absolute;
+  left: 39%;
+  top: 35%;
+}
+.top-container {
+  text-align: center;
+  background-color: #00bfff;
+  height: 850px;
+  position: relative;
+
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.middle-container {
+  height: 850px;
+  background-color: #e0ffff;
+}
+
+.bottom-container {
+  height: 850px;
+  background-color: #8fbc8f;
+}
+
+
+
+p {
+  position: absolute;
+  left: 45%;
+  top: 43%;
+  font-style: italic;
+  color: green;
+}
+
+.cloud {
+  position: absolute;
+  right: 25%;
+  top: 25%;
+}
+
+.cloudt {
+  position: absolute;
+  left: 20%;
+  top: 45%;
+}
+.mount {
+  position: absolute;
+  bottom: 0;
+  right: 32%;
+}*/
